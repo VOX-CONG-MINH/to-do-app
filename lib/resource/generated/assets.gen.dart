@@ -19,10 +19,27 @@ class $AssetsIconsGen {
   List<AssetGenImage> get values => [logo];
 }
 
+class $AssetsImagesGen {
+  const $AssetsImagesGen();
+
+  /// File path: assets/images/onboading_1.png
+  AssetGenImage get onboading1 => const AssetGenImage('assets/images/onboading_1.png');
+
+  /// File path: assets/images/onboading_2.png
+  AssetGenImage get onboading2 => const AssetGenImage('assets/images/onboading_2.png');
+
+  /// File path: assets/images/onboading_3.png
+  AssetGenImage get onboading3 => const AssetGenImage('assets/images/onboading_3.png');
+
+  /// List of all assets
+  List<AssetGenImage> get values => [onboading1, onboading2, onboading3];
+}
+
 class Assets {
   Assets._();
 
   static const $AssetsIconsGen icons = $AssetsIconsGen();
+  static const $AssetsImagesGen images = $AssetsImagesGen();
 }
 
 class AssetGenImage {
