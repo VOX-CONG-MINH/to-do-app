@@ -1,0 +1,9 @@
+export 'main.dart';
+export 'resource/generated/assets.gen.dart';
+export 'resource/generated/fonts.gen.dart';
+export 'resource/style/app_color.dart';
+export 'resource/style/app_theme.dart';
+export 'ui/login/login_screen.dart';
+export 'ui/onboading/onboading_screen.dart';
+export 'ui/splash/splash_screen.dart';
+export 'ui/start/start_screen.dart';

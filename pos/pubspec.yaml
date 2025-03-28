@@ -1,0 +1,56 @@
+name: pos
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  domain:
+    path: ../domain
+
+  cupertino_icons: ^1.0.8
+  flutter_svg: 2.0.10+1
+
+  loading_animation_widget: ^1.2.0+4
+  liquid_progress_indicator_v2: ^0.5.0
+  smooth_page_indicator: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+  build_runner:
+  flutter_gen_runner: 5.6.0
+
+flutter_gen:
+  output: lib/pos/resource/generated
+  line_length: 100
+
+  integrations:
+    flutter_svg: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: MonaSans
+      fonts:
+        - asset: assets/fonts/MonaSans-Light.ttf
+          weight: 200
+        - asset: assets/fonts/MonaSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/MonaSans-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/MonaSans-Bold.ttf
+          weight: 800
